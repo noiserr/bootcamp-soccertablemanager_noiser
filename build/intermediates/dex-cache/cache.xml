@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/noiser/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-a126061a06434eb3ee0154c69cf06017d1f93680.jar" />
+    </item>
+    <item
+        jar="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/classes-38cf12ed5d5468393db703afa53834b9e9e4ef1d.jar" />
+    </item>
+    <item
+        jar="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/classes-134a9b15c40d191d9072a22366dae41cfeaa4b1d.jar" />
+    </item>
+    <item
+        jar="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/classes-1d25eea20355f98e550b46d9cb33f5e1f7acc1f8.jar" />
+    </item>
+    <item
+        jar="/home/noiser/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e61d959d93aa6b328e4575f37c3426be4dca1db0.jar" />
+    </item>
+    <item
+        jar="/home/noiser/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/okio-1.0.0-7bf4044b848c2ef61a8790a55d75622bc7c5d9ba.jar" />
+    </item>
+    <item
+        jar="/home/noiser/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/gson-2.3.1-ca7a750de5af5765f50014db66fe580686b2eb6a.jar" />
+    </item>
+    <item
+        jar="/home/noiser/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-31b2d2b569befe1a8aea0e5d5de2ec044cdfa229.jar" />
+    </item>
+    <item
+        jar="/home/noiser/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.0.0/afe8399d352713b66e597e9670c741d1e60ae923/okhttp-urlconnection-2.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="afe8399d352713b66e597e9670c741d1e60ae923">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-c394399b7bd8cc6c7e0c493a1589a5e590bda104.jar" />
+    </item>
+    <item
+        jar="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-70076d79bec7e742d6bf4ac5f8ee4c939cadaecc.jar" />
+    </item>
+    <item
+        jar="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/classes-893cdde00da160c3eabedfcbac88071c2897c9cb.jar" />
+    </item>
+    <item
+        jar="/home/noiser/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0-5adf4907a101bc490f5704a459d6f3bccb1ec192.jar" />
+    </item>
+    <item
+        jar="/home/noiser/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/home/noiser/AndroidStudioProjects/bootcamp-soccertablemanager/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-6866fc59e78a4d98c329f549b1d6b369ba9a7b1d.jar" />
+    </item>
+
+</items>
