@@ -22,8 +22,8 @@ import de.greenrobot.event.EventBus;
 public class RegisterActivity extends AppCompatActivity {
 
     @Bind(R.id.registration_id_et)
-    EditText userIdEditText;
-    SharedPreferences sharedPreferences;
+    private EditText mUserIdEditText;
+    private SharedPreferences mSharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,11 +37,11 @@ public class RegisterActivity extends AppCompatActivity {
 
     @OnClick(R.id.register_button)
     public void registerUser(View view) {
-        EventBus.getDefault().post(new RegisterRequestEvent(userIdEditText.getText() + ""));
+        EventBus.getDefault().post(new RegisterRequestEvent(mUserIdEditText.getText() + ""));
     }
 
     private void getSharedPreferences() {
-        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
     }
 
 
@@ -53,8 +53,8 @@ public class RegisterActivity extends AppCompatActivity {
     public void onEventMainThread(RegisterResponseEvent event) {
         if (event.getApiError() == null) {
             showToast("Registered with id= " + event.getUserId());
-            sharedPreferences.edit().putInt(Const.USER_ID, event.getUserId()).apply();
-            sharedPreferences.edit().putString(Const.USER_NAME, userIdEditText.getText().toString()).apply();
+            mSharedPreferences.edit().putInt(Const.USER_ID, event.getUserId()).apply();
+            mSharedPreferences.edit().putString(Const.USER_NAME, mUserIdEditText.getText().toString()).apply();
             startActivity(new Intent(this, TablesActivity.class));
         } else {
             showToast("Cant Registered");

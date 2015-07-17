@@ -37,8 +37,7 @@ public class TablesActivity extends AppCompatActivity {
     @Bind(R.id.activity_main_swipe_refresh_layout)
     SwipeRefreshLayout swipeRefreshLayout;
 
-    SharedPreferences sharedPreferences;
-    private TableAdapter mTableAdapter;
+    private SharedPreferences mSharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,14 +49,14 @@ public class TablesActivity extends AppCompatActivity {
         setUpRecyclerView();
         getTables();
         setupSwipeToRefresh();
-        int userID = sharedPreferences.getInt(Const.USER_ID, 0);
+        int userID = mSharedPreferences.getInt(Const.USER_ID, 0);
         if (userID == 0) {
             startActivity(new Intent(this, RegisterActivity.class));
         }
     }
 
     private void getSharedPreferences() {
-        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
     }
 
     private void setUpRecyclerView() {
@@ -95,15 +94,15 @@ public class TablesActivity extends AppCompatActivity {
 
     @OnClick(R.id.unregister_table_button)
     public void unRegister() {
-        sharedPreferences.edit().putInt(Const.USER_ID, 0).apply();
-        sharedPreferences.edit().putString(Const.USER_NAME, "").apply();
+        mSharedPreferences.edit().putInt(Const.USER_ID, 0).apply();
+        mSharedPreferences.edit().putString(Const.USER_NAME, "").apply();
         startActivity(new Intent(this, RegisterActivity.class));
     }
 
 
     @OnClick(R.id.add_table_button)
     public void addTable() {
-        int userID = sharedPreferences.getInt(Const.USER_ID, 0);
+        int userID = mSharedPreferences.getInt(Const.USER_ID, 0);
         String time = createTableTimeET.getText().toString();
         if (userID != 0) {
             EventBus.getDefault().post(new CreateTableRequestEvent(time, userID));
@@ -128,7 +127,7 @@ public class TablesActivity extends AppCompatActivity {
 
     public void onEventMainThread(GetTablesResponseEvent event) {
         if (event.getApiError() == null) {
-            mTableAdapter = new TableAdapter(event.getTables());
+            TableAdapter mTableAdapter = new TableAdapter(event.getTables());
             recyclerView.setAdapter(mTableAdapter);
 
         }
